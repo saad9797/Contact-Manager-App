@@ -64,8 +64,6 @@ package.json     # Project metadata and dependencies
 
 | Method | Endpoint             | Description                                  |
 | ------ | -------------------- | -------------------------------------------- |
-| POST   | `/api/auth/register` | Register a new user                          |
-| POST   | `/api/auth/login`    | Login + receive JWT token                    |
 | GET    | `/api/contacts`      | Retrieve list of contacts for logged‑in user |
 | POST   | `/api/contacts`      | Create a new contact                         |
 | GET    | `/api/contacts/:id`  | Retrieve a specific contact by ID            |
